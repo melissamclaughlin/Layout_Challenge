@@ -1,5 +1,11 @@
 /* this is for index.html */
 
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +25,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 600px;
+  width: 580px;
   height: 400px;
   float: left;
   margin: 0px 10px 10px 10px;
@@ -68,7 +74,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 230px;
+  width: 220px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -91,7 +97,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 230px;
+  width: 220px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -129,7 +135,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 440px;
+  width: 430px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -140,7 +146,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 440px;
+  width: 430px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -151,7 +157,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 287px;
+  width: 280px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   clear: left;
@@ -163,7 +169,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 287px;
+  width: 280px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -174,7 +180,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 287px;
+  width: 280px;
   height: 400px;
   margin: 0px 10px 10px 10px;
   float: left;
@@ -185,7 +191,7 @@
   border-style: solid;
   border-color: #000;
   background: #999;
-  width: 900px;
+  width: 890px;
   height: 200px;
   margin: 10px;
   clear: left;
@@ -209,12 +215,12 @@
   height:50px;
   background: #999; 
   border:solid 1px #000; 
-  float: left; 
+  float: right; 
   margin: 10px 5px 10px 5px;
 }
 
 .MNmain { 
-  width:900px; 
+  width:880px; 
   height:300px;
   background: #999; 
   border:solid 1px #000; 
@@ -223,7 +229,7 @@
 }
 
 .MNmain2 { 
-  width:287px; 
+  width:280px; 
   height:150px;
   background: #999; 
   border:solid 1px #000; 
@@ -232,7 +238,7 @@
 }
 
 .MNfooter { 
-  width:900px; 
+  width:880px; 
   height:100px;
   background: #999; 
   border:solid 1px #000; 
@@ -241,6 +247,8 @@
 }
 
 /* this is for magazine.html */
+
+
 * { box-sizing: border-box }
 
 .MAGheader { 
@@ -252,21 +260,70 @@
   margin: 10px 10px 10px 10px; 
 }
 
-.MAGNnav { 
-  width:150px; 
+.MAGnav { 
+  width:120px; 
   height:50px;
   background: #999; 
   border:solid 1px #000; 
-  float: left; 
+  float: right; 
   margin: 10px 5px 10px 5px; 
 }
 
 .MAGcolumn { 
-  width:300px; 
-  height:40px;
+  width:160px; 
+  height:600px;
   background: #999;
-  border:solid 1px #000; 
-  float: left; 
-  display: inline-block; 
+  border:solid 1px #000;
+  float: left;
+  clear: both;   
   margin: 10px;
 }
+
+.MAGmain2 { 
+  width:700px; 
+  height:160px;
+  background: #999;
+  border:solid 1px #000;
+  float: right;   
+  margin: 10px;
+}
+
+.MAGmain3L { 
+  width:520px; 
+  height:238px;
+  background: #999;
+  border:solid 1px #000;
+  float: left;   
+  margin: 10px;
+}
+
+.MAGmain3R { 
+  width:160px; 
+  height:238px;
+  background: #999;
+  border:solid 1px #000;
+  float: right;   
+  margin: 10px;
+}
+
+.MAGmain4 { 
+  width:160px; 
+  height:160px;
+  background: #999;
+  border:solid 1px #000;
+  float: left;   
+  margin: 10px;
+}
+
+.MAGfooter {
+  width:880px; 
+  height:160px;
+  background: #999;
+  border:solid 1px #000;
+  float: left;   
+  margin: 10px;
+}
+
+.clearfix { display: inline-block; }
+
+.
